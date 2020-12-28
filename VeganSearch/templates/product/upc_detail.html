@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %} Details {% endblock %}
+
+{% block content %}
+
+<h1>
+    Product Details
+</h1>
+<body>
+   {% for key, value in api %}
+    
+    {% for key2,value2 in value.items %}
+   <h2>{{ key2 }} :</h2>  <h3>{{ value2 }} <br></h3>
+     {% endfor %}      
+       
+    {% endfor %}
+    
+    
+</body>
+{% endblock %} 

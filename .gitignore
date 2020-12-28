@@ -1,0 +1,9 @@
+bin/
+lib/
+include/
+lib64/
+share/
+*/VeganSearch/*.sqlite3
+*/__pycache__/
+Scripts/
+.env

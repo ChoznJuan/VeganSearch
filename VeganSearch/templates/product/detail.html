@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %} Details {%endblock %}
+
+{% block content %}
+
+<h1>
+    Product Details
+</h1>
+<body>
+   
+    <h2>{{ Name }}</h2>
+    <h3>UPC Code: {{ UPC }}</h3>
+    <ul>
+        {% for Ingredients in Ingredients_List %}
+        <li>{{ Ingredients }}</li>
+        {% endfor %}
+    </ul>
+    
+</body>
+
+
+{% endblock %} 

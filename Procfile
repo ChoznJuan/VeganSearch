@@ -1,0 +1,1 @@
+web: gunicorn VeganSearch.wsgi --log-file -
